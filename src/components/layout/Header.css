@@ -1,0 +1,21 @@
+header {
+	text-transform: uppercase;
+}
+
+#mainNav {
+	height:120px;
+}
+
+.navbar-collapse {
+	padding: 0px 135px 0 135px;	
+}
+
+#logo {
+	width:250px;
+	position:absolute;
+	left:50%;
+	margin-left: -125px;
+	right:auto;
+	top:0px;
+	z-index: 99;
+}

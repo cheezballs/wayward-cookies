@@ -1,0 +1,30 @@
+/* 
+	aqua:  #A9FBD7
+	blue:  #08A4BD
+	tan:   #E9D1AF
+	brown: #685A4F
+	pink:  #FF73A5	
+ */
+
+ a, a:visited {
+	color:#08A4BD;
+ }
+
+ .wave-top {
+	position: absolute;
+	top:0;
+	background-image: url('../public/images/wavy-top.png');
+	background-size: 55px;
+	height:18px;
+	width: 100%;
+}
+
+.wave-bottom {
+	position: absolute;
+	bottom:0;
+	background-image: url('../public/images/wavy-top.png');
+	background-size: 55px;
+	height:18px;
+	transform: scaleY(-1);
+	width: 100%;
+}
