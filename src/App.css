@@ -10,12 +10,21 @@
 	color:#08A4BD;
  }
 
+ a:hover, a:active {
+	 color:#E9D1AF !important;
+ }
+
+ .nav-link {
+	 transition: none !important;
+ }
+
+
  .wave-top {
 	position: absolute;
 	top:0;
 	background-image: url('../public/images/wavy-top.png');
-	background-size: 55px;
-	height:18px;
+	background-size: 46px;
+	height:15px;
 	width: 100%;
 }
 
@@ -23,8 +32,8 @@
 	position: absolute;
 	bottom:0;
 	background-image: url('../public/images/wavy-top.png');
-	background-size: 55px;
-	height:18px;
+	background-size: 46px;
+	height:15px;
 	transform: scaleY(-1);
 	width: 100%;
 }
