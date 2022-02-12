@@ -1,7 +1,17 @@
+import "./Contact.css";
+
 export default function Contact(props) {
 	return (
 		<main >
-			<p>Contact Page!</p>
+			<div className="container-fluid">
+				<div className="row">
+					<div className="col text-center content">
+						<p>
+							Contact
+						</p>
+					</div>
+				</div>
+			</div>
 		</main >
 	);
 }

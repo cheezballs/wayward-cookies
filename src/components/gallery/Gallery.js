@@ -1,7 +1,17 @@
+import "./Gallery.css";
+
 export default function Gallery(props) {
 	return (
 		<main >
-			<p>Gallery Page!</p>
+			<div className="container-fluid">
+				<div className="row">
+					<div className="col text-center content">
+						<p>
+							Gallery
+						</p>
+					</div>
+				</div>
+			</div>
 		</main >
 	);
 }

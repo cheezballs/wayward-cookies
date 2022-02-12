@@ -11,6 +11,8 @@ export default function Header(props) {
 
 	const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
+	const collapseMobile = () => setIsNavCollapsed(true);
+
 	useEffect(() => {
 		const leftNavCollapse = document.getElementById('leftNavCollapse');
 		const rightNavCollapse = document.getElementById('rightNavCollapse');
@@ -34,13 +36,13 @@ export default function Header(props) {
 				<div id="leftNavCollapse" className={`navbar-collapse collapse dual-nav w-50 order-1 order-md-0 left`}>
 					<ul className="navbar-nav ms-auto">
 						<li className="nav-item active">
-							<Link to="/home" className="nav-link" onClick={handleNavCollapse}>Home</Link>
+							<Link to="/home" className="nav-link" onClick={collapseMobile}>Home</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/about" className="nav-link" onClick={handleNavCollapse}>About</Link>
+							<Link to="/about" className="nav-link" onClick={collapseMobile}>About</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/gallery" className="nav-link" onClick={handleNavCollapse}>Gallery</Link>
+							<Link to="/gallery" className="nav-link" onClick={collapseMobile}>Gallery</Link>
 						</li>
 					</ul>
 				</div>
@@ -50,16 +52,16 @@ export default function Header(props) {
 				<div className="navbar-brand mx-auto d-md-none order-md-1" id="mobileNavImage">
 					<img src="/images/text-logo.png" alt="Wayward Cookies logo" width="100%" id="text-logo" />
 				</div>
-				<div id="rightNavCollapse" class={`navbar-collapse collapse dual-nav w-50 order-2 bgWhite`}>
-					<ul class={`nav navbar-nav${isNavCollapsed ? 'me-auto' : ''}`}>
+				<div id="rightNavCollapse" class={`navbar-collapse collapse dual-nav w-50 order-2 bgWhite ${isNavCollapsed ? 'right' : ''}`}>
+					<ul class={`nav navbar-nav ${isNavCollapsed ? 'me-auto' : ''}`}>
 						<li className="nav-item">
-							<Link to="/testimonials" className="nav-link" onClick={handleNavCollapse}>Clients</Link>
+							<Link to="/testimonials" className="nav-link" onClick={collapseMobile}>Clients</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/contact" className="nav-link" onClick={handleNavCollapse}>Contact</Link>
+							<Link to="/contact" className="nav-link" onClick={collapseMobile}>Contact</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/order" className="nav-link" onClick={handleNavCollapse}>Order</Link>
+							<Link to="/order" className="nav-link" onClick={collapseMobile}>Order</Link>
 						</li>
 					</ul>
 				</div>

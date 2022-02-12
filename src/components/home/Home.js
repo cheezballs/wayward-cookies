@@ -9,7 +9,6 @@ export default function Home(props) {
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-4 text-white text-center">
-							<p>The kitty picture is just a placeholder.</p>
 						</div>
 					</div>
 				</div>
