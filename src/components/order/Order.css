@@ -1,3 +1,23 @@
-main {
-	padding-top:100px;
+h1 {
+	color:#FF73A5;
+	font-family: 'Shadows Into Light';
+	font-size: 3.5rem !important;
+}
+
+#orders-container {
+	max-width:800px;
+}
+
+#order-date {
+	height:58px;
+}
+
+#order-date::placeholder {
+	color:#212529;	
+}
+
+.success-message {
+	font-family: 'Shadows Into Light';
+	font-size: 2rem;
+	color: #685A4F;
 }

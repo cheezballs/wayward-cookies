@@ -52,8 +52,8 @@ export default function Header(props) {
 				<div className="navbar-brand mx-auto d-md-none order-md-1" id="mobileNavImage">
 					<img src="/images/text-logo.png" alt="Wayward Cookies logo" width="100%" id="text-logo" />
 				</div>
-				<div id="rightNavCollapse" class={`navbar-collapse collapse dual-nav w-50 order-2 bgWhite ${isNavCollapsed ? 'right' : ''}`}>
-					<ul class={`nav navbar-nav ${isNavCollapsed ? 'me-auto' : ''}`}>
+				<div id="rightNavCollapse" className={`navbar-collapse collapse dual-nav w-50 order-2 bgWhite ${isNavCollapsed ? 'right' : ''}`}>
+					<ul className={`nav navbar-nav ${isNavCollapsed ? 'me-auto' : ''}`}>
 						<li className="nav-item">
 							<Link to="/testimonials" className="nav-link" onClick={collapseMobile}>Clients</Link>
 						</li>

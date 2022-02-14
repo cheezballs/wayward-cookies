@@ -8,6 +8,7 @@
 
  a, a:visited {
 	color:#08A4BD;
+	text-decoration: none !important;
  }
 
  a:hover, a:active {
@@ -19,6 +20,9 @@
 	 color: #08A4BD !important;
  }
 
+ main {
+	 min-height: 500px;
+ }
 
  .wave-top {
 	position: absolute;
@@ -37,4 +41,11 @@
 	height:15px;
 	transform: scaleY(-1);
 	width: 100%;
+}
+
+.btn-wayward {
+	color:#fff !important;
+	background-color: #08A4BD !important;
+	font-family: 'Shadows Into Light';
+	font-size: 18pt !important;
 }
