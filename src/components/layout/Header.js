@@ -55,7 +55,7 @@ export default function Header(props) {
 				<div id="rightNavCollapse" className={`navbar-collapse collapse dual-nav w-50 order-2 bgWhite ${isNavCollapsed ? 'right' : ''}`}>
 					<ul className={`nav navbar-nav ${isNavCollapsed ? 'me-auto' : ''}`}>
 						<li className="nav-item">
-							<Link to="/testimonials" className="nav-link" onClick={collapseMobile}>Clients</Link>
+							<Link to="/reviews" className="nav-link" onClick={collapseMobile}>Reviews</Link>
 						</li>
 						<li className="nav-item">
 							<Link to="/contact" className="nav-link" onClick={collapseMobile}>Contact</Link>

@@ -14,18 +14,11 @@ export default function Home(props) {
 				</div>
 				<div className="wave-bottom"></div>
 			</header>
-			<main >
+			<main style={{ minHeight: "250px" }}>
 				<div className="container-fluid">
 					<div className="row">
 						<div className="col text-center content">
-							<p>
-								More content could go here!
-							</p>
-							<div style={{ height: "200px" }} >
-							</div>
-							<p>
-								EVEN MORE CONTENT !!!
-							</p>
+
 						</div>
 					</div>
 				</div>
