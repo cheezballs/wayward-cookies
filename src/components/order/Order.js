@@ -28,6 +28,24 @@ export default function Order(props) {
 		}
 	}
 
+	const handlePhoneNumber = (e) => {
+		const allowedInput = /^[0-9\b.]+$/;
+		if (e.target.value === '' || (allowedInput.test(e.target.value) && e.target.value.length <= 12)) {
+			setPhoneNumber(formatPhoneNumber(e.target.value));
+		}
+	}
+
+	const formatPhoneNumber = (phoneStr) => {
+		const phoneStrStripped = phoneStr.replaceAll('.', '');
+		if (phoneStrStripped.length < 4) {
+			return phoneStrStripped;
+		} else if (phoneStrStripped.length < 7) {
+			return phoneStrStripped.slice(0, 3) + '.' + phoneStrStripped.slice(3);
+		} else {
+			return phoneStrStripped.slice(0, 3) + '.' + phoneStrStripped.slice(3, 6) + '.' + phoneStrStripped.slice(6);
+		}
+	}
+
 	const submitForm = () => {
 		const formParams = {
 			firstName: firstName,
@@ -121,7 +139,7 @@ export default function Order(props) {
 						<div className="row g-3 pb-3">
 							<div className="col-md-4">
 								<div className="form-floating">
-									<input id="phoneNumber" type="text" className="form-control" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} placeholder="Phone Number" />
+									<input id="phoneNumber" type="text" className="form-control" value={phoneNumber} onChange={handlePhoneNumber} placeholder="Phone Number" />
 									<label for="phoneNumber">Phone Number</label>
 									{errors["phoneNumber"] &&
 										<div className="invalid-feedback d-block">

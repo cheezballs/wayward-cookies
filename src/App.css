@@ -6,6 +6,16 @@
 	pink:  #FF73A5	
  */
 
+ #root {
+	 background-color: #fff;
+ }
+
+ body {
+	font-family: 'Poppins' !important;
+	background-color: #dd85a4 !important;
+ }
+
+
  a, a:visited {
 	color:#08A4BD;
 	text-decoration: none !important;
@@ -22,6 +32,7 @@
 
  main {
 	 min-height: 500px;
+	 background-color: #fff !important;
  }
 
  .wave-top {
