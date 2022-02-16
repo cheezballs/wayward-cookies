@@ -31,7 +31,7 @@ export default function Header(props) {
 		<nav className="navbar navbar-expand-md justify-content-between" id="mainNav">
 			<div className="container-fluid bgWhite">
 				<button className="navbar-toggler pt-1 pb-1 me-1" type="button" data-bs-toggle="collapse" data-bs-target=".dual-nav" onClick={handleNavCollapse}>
-					<FontAwesomeIcon icon={faBars} size="lg" color="black" />
+					<FontAwesomeIcon icon={faBars} size="lg" color="#685A4F" />
 				</button>
 				<div id="leftNavCollapse" className={`navbar-collapse collapse dual-nav w-50 order-1 order-md-0 left`}>
 					<ul className="navbar-nav ms-auto">
