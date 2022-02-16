@@ -49,7 +49,7 @@
 	bottom:0;
 	background-image: url('../public/images/wavy-top.png');
 	background-size: 46px;
-	height:15px;
+	height:14px;
 	transform: scaleY(-1);
 	width: 100%;
 }
