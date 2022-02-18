@@ -25,6 +25,21 @@
 	 color:#FF73A5 !important;
  }
 
+ h1 {
+	color:#FF73A5;
+	font-family: 'Shadows Into Light';
+	font-size: 3.5rem !important;
+}
+
+h2 {
+	font-family: 'Shadows Into Light';
+	font-size: 3rem !important;
+}
+
+.dark-green {
+	color:darkgreen;
+}
+
  .nav-link {
 	 transition: none !important;
 	 color: #08A4BD !important;

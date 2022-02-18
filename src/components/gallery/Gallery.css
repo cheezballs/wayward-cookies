@@ -1,1 +1,5 @@
-
+.gallery-img-thumbnail {
+	cursor: pointer;
+	padding: 0px !important;
+	overflow: hidden;
+}
