@@ -1,0 +1,81 @@
+/* 
+	aqua:  #A9FBD7
+	blue:  #08A4BD
+	tan:   #E9D1AF
+	brown: #685A4F
+	pink:  #FF73A5	
+ */
+
+ #root {
+	 background-color: #fff;
+ }
+
+ body {
+	font-family: 'Poppins' !important;
+	background-color: #dd85a4 !important;
+ }
+
+
+ a, a:visited {
+	color:#08A4BD !important;
+	text-decoration: none !important;
+ }
+
+ a:hover, a:active {
+	 color:#FF73A5 !important;
+ }
+
+ h1 {
+	color:#FF73A5;
+	font-family: 'Shadows Into Light';
+	font-size: 3.5rem !important;
+}
+
+h2 {
+	font-family: 'Shadows Into Light';
+	font-size: 3rem !important;
+}
+
+.dark-green {
+	color:darkgreen;
+}
+
+ .nav-link {
+	 transition: none !important;
+	 color: #08A4BD !important;
+ }
+
+ main {
+	 min-height: 950px;
+	 background-color: #fff !important;
+ }
+
+ .wc-blue {
+	 color:#08A4BD;
+ }
+
+ .wave-top {
+	position: absolute;
+	top:0;
+	background-image: url('../public/images/wavy-top.png');
+	background-size: 46px;
+	height:15px;
+	width: 100%;
+}
+
+.wave-bottom {
+	position: absolute;
+	bottom:0;
+	background-image: url('../public/images/wavy-top.png');
+	background-size: 46px;
+	height:14px;
+	transform: scaleY(-1);
+	width: 100%;
+}
+
+.btn-wayward {
+	color:#fff !important;
+	background-color: #08A4BD !important;
+	font-family: 'Shadows Into Light';
+	font-size: 18pt !important;
+}

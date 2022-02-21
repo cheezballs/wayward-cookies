@@ -1,0 +1,17 @@
+#orders-container {
+	max-width:800px;
+}
+
+#order-date {
+	height:58px;
+}
+
+#order-date::placeholder {
+	color:#212529;	
+}
+
+.success-message {
+	font-family: 'Shadows Into Light';
+	font-size: 2rem;
+	color: #685A4F;
+}

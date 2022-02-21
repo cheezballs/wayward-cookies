@@ -1,0 +1,1 @@
+docker build --tag cheezballs/wayward-cookies:preview .
