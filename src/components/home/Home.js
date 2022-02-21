@@ -14,7 +14,7 @@ export default function Home(props) {
 				</div>
 				<div className="wave-bottom"></div>
 			</header>
-			<main style={{ minHeight: "550px" }} className="pt-5" id="home-content">
+			<main style={{ minHeight: "650px" }} className="pt-5" id="home-content">
 				<div className="container">
 					<div className="row">
 						<div className="col text-center content">
@@ -23,7 +23,7 @@ export default function Home(props) {
 					</div>
 					<div className="row justify-content-center pt-5 gx-5">
 						<div className="col-8 col-md-4 pb-5">
-							<img className="img-fluid img-thumbnail p-0 w-100" src="images/assorted-cookies-1.jpg" alt="Cookies For All Occasions" />
+							<img className="img-fluid img-thumbnail p-0 w-100" src="images/birthday-cookie-1.jpg" alt="Cookies For All Occasions" />
 							<h3 className="pt-3 text-center">All Occasions</h3>
 							<p>
 								Whether you're looking to celebrate a birthday, graduation, or a holiday - we've got you covered! You don't even need a reason, really.
@@ -37,9 +37,11 @@ export default function Home(props) {
 							</p>
 						</div>
 						<div className="col-8 col-md-4 pb-5">
-							<img className="img-fluid img-thumbnail p-0 w-100" src="images/llama-cookies-1.jpg" alt="Llama Cookies" />
-							<h3 className="pt-3 text-center">No Scabs</h3>
-							<p>Our cookies are guaranteed to be scab-free. Good luck getting the same guarantee from Nabisco.</p>
+							<img className="img-fluid img-thumbnail p-0 w-100" src="images/kc-cookie-1.jpg" alt="Llama Cookies" />
+							<h3 className="pt-3 text-center">Local</h3>
+							<p>
+								Stick it to those corporate cookie fat-cats and support our Lego addiction!
+							</p>
 						</div>
 					</div>
 				</div>

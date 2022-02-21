@@ -46,8 +46,12 @@ h2 {
  }
 
  main {
-	 min-height: 850px;
+	 min-height: 950px;
 	 background-color: #fff !important;
+ }
+
+ .wc-blue {
+	 color:#08A4BD;
  }
 
  .wave-top {

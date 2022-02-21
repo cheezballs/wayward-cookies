@@ -24,13 +24,13 @@ export default function About(props) {
 						<p>
 							We offer a variety of packaging options, including but not limited to the following:
 							<ul className="pt-2">
-								<li className="pb-3"><strong>Bulk Packaging: <span className="dark-green">Free</span></strong><br />
+								<li className="pb-3"><strong>Bulk Packaging: </strong><span className="wc-blue">Free</span><br />
 									Cookies are neatly stacked in a bakery box, without any individual packing. This is a good option for those displaying cookies at a party or event. There is a possibility of cookies rubbing together, potentially causing damage to the icing.
 								</li>
-								<li className="pb-3"><strong>Cellophane Packaging: <span className="dark-green">$5 per dozen</span></strong><br />
+								<li className="pb-3"><strong>Cellophane Packaging: </strong><span className="wc-blue">$5 per dozen</span><br />
 									Cookies are individually heat sealed in cellophane and placed in a bakery box with bubble wrap for protection. This option is also used when shipping cookies to a buyer.
 								</li>
-								<li className="pb-5"><strong>Cellophane Packaging: <span className="dark-green">$6 per dozen</span></strong><br />
+								<li className="pb-5"><strong>Cellophane Packaging: </strong><span className="wc-blue">$6 per dozen</span><br />
 									Have a gift for a friend or loved one? We offer individually wrapped and heat-sealed cookies in a gift box with tissue paper and a decorative ribbon.
 								</li>
 							</ul>
