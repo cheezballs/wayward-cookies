@@ -12,21 +12,36 @@ export default function Gallery(props) {
 
 	return (
 		<main className="pt-md-5">
-			<div className="container-fluid pt-md-5">
-				<div className="row justify-content-center pt-5">
-					<div className="col-6 col-md-3 pb-4">
+			<div className="container pt-md-5">
+				<div className="row justify-content-center pt-5 gx-5">
+					<div className="col-5 col-md-4 pb-5">
 						<div className="gallery-img-thumbnail">
 							<img className="img-fluid" src="images/gallery/100-birthday-1-thumb.jpg" alt="Birthday Cookies" onClick={handleImageClick} data-bs-toggle="modal" data-bs-target="#imageModal" />
 						</div>
 					</div>
-					<div className="col-6 col-md-3 pb-4">
+					<div className="col-5 col-md-4 pb-5">
 						<div className="gallery-img-thumbnail">
 							<img className="img-fluid" src="images/gallery/chiefs-cookies-1-thumb.jpg" alt="Chiefs Cookies" onClick={handleImageClick} data-bs-toggle="modal" data-bs-target="#imageModal" />
 						</div>
 					</div>
-					<div className="col-6 col-md-3 pb-4">
+					<div className="col-5 col-md-4 pb-5">
 						<div className="gallery-img-thumbnail">
 							<img className="img-fluid" src="images/gallery/llama-cookies-1-thumb.jpg" alt="Chiefs Cookies" onClick={handleImageClick} data-bs-toggle="modal" data-bs-target="#imageModal" />
+						</div>
+					</div>
+					<div className="col-5 col-md-4 pb-5">
+						<div className="gallery-img-thumbnail">
+							<img className="img-fluid" src="images/gallery/birthday-1-thumb.jpg" alt="Chiefs Cookies" onClick={handleImageClick} data-bs-toggle="modal" data-bs-target="#imageModal" />
+						</div>
+					</div>
+					<div className="col-5 col-md-4 pb-5">
+						<div className="gallery-img-thumbnail">
+							<img className="img-fluid" src="images/gallery/workout-1-thumb.jpg" alt="Chiefs Cookies" onClick={handleImageClick} data-bs-toggle="modal" data-bs-target="#imageModal" />
+						</div>
+					</div>
+					<div className="col-5 col-md-4 pb-5">
+						<div className="gallery-img-thumbnail">
+							<img className="img-fluid" src="images/gallery/birthday-2-thumb.jpg" alt="Chiefs Cookies" onClick={handleImageClick} data-bs-toggle="modal" data-bs-target="#imageModal" />
 						</div>
 					</div>
 				</div>

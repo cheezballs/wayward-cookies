@@ -33,7 +33,7 @@ export default function Home(props) {
 							<img className="img-fluid img-thumbnail p-0 w-100" src="images/chiefs-cookies-1.jpg" alt="Chiefs Cookies" />
 							<h3 className="pt-3 text-center">Sports!</h3>
 							<p>
-								Celebrate another dissapointing season of your favorite sports team by smothering your sorrow with delicious sugary treats!
+								Celebrate another dissapointing season of your favorite sports team by smothering your sorrow with delicious sugary treats.
 							</p>
 						</div>
 						<div className="col-8 col-md-4 pb-5">
