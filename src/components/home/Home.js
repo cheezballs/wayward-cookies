@@ -17,7 +17,7 @@ export default function Home(props) {
 			<main style={{ minHeight: "650px" }} className="pt-5" id="home-content">
 				<div className="container">
 					<div className="row">
-						<div className="col text-center content">
+						<div className="col text-center content py-4">
 							<h2 style={{ color: "#403730", }}>Seriously Awesome Cookies</h2>
 						</div>
 					</div>
