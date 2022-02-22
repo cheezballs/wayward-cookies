@@ -30,7 +30,7 @@ export default function About(props) {
 								<li className="pb-3"><strong>Cellophane Packaging: </strong><span className="wc-blue">$5 per dozen</span><br />
 									Cookies are individually heat sealed in cellophane and placed in a bakery box with bubble wrap for protection. This option is also used when shipping cookies to a buyer.
 								</li>
-								<li className="pb-5"><strong>Cellophane Packaging: </strong><span className="wc-blue">$6 per dozen</span><br />
+								<li className="pb-5"><strong>Gift Packaging: </strong><span className="wc-blue">$6 per dozen</span><br />
 									Have a gift for a friend or loved one? We offer individually wrapped and heat-sealed cookies in a gift box with tissue paper and a decorative ribbon.
 								</li>
 							</ul>

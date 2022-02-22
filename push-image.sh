@@ -1,1 +1,1 @@
-docker push cheezballs/wayward-cookies:preview
+docker push cheezballs/wayward-cookies:latest

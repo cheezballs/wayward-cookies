@@ -1,1 +1,1 @@
-docker build --tag cheezballs/wayward-cookies:preview .
+docker build --tag cheezballs/wayward-cookies:latest .
