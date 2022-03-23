@@ -1,5 +1,5 @@
 .gallery-img-thumbnail {
 	cursor: pointer;
-	padding: 0px !important;
+	padding: 1px !important;
 	overflow: hidden;
 }

@@ -116,7 +116,7 @@ export default function Order(props) {
 							<div className="col-md">
 								<div className="form-floating">
 									<input id="firstName" type="text" className="form-control" value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="First Name" />
-									<label for="firstName">First Name</label>
+									<label htmlFor="firstName">First Name</label>
 									{errors["firstName"] &&
 										<div className="invalid-feedback d-block">
 											{errors["firstName"]}
@@ -127,7 +127,7 @@ export default function Order(props) {
 							<div className="col-md">
 								<div className="form-floating">
 									<input id="lastName" type="text" className="form-control" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Last Name" />
-									<label for="lastName">Last Name</label>
+									<label htmlFor="lastName">Last Name</label>
 									{errors["lastName"] &&
 										<div className="invalid-feedback d-block">
 											{errors["lastName"]}
@@ -140,7 +140,7 @@ export default function Order(props) {
 							<div className="col-md-4">
 								<div className="form-floating">
 									<input id="phoneNumber" type="text" className="form-control" value={phoneNumber} onChange={handlePhoneNumber} placeholder="Phone Number" />
-									<label for="phoneNumber">Phone Number</label>
+									<label htmlFor="phoneNumber">Phone Number</label>
 									{errors["phoneNumber"] &&
 										<div className="invalid-feedback d-block">
 											{errors["phoneNumber"]}
@@ -151,7 +151,7 @@ export default function Order(props) {
 							<div className="col-md">
 								<div className="form-floating">
 									<input id="email" type="text" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
-									<label for="email">Email</label>
+									<label htmlFor="email">Email</label>
 									{errors["email"] &&
 										<div className="invalid-feedback d-block">
 											{errors["email"]}
@@ -164,7 +164,7 @@ export default function Order(props) {
 							<div className="col">
 								<div className="form-floating">
 									<textarea id="orderDetails" className="form-control" style={{ height: "200px" }} onChange={(e) => setOrderDetails(e.target.value)} value={orderDetails} placeholder="Order Details" />
-									<label for="orderDetails">Order Details</label>
+									<label htmlFor="orderDetails">Order Details</label>
 									{errors["orderDetails"] &&
 										<div className="invalid-feedback d-block">
 											{errors["orderDetails"]}
@@ -177,7 +177,7 @@ export default function Order(props) {
 							<div className="col-md-2">
 								<div className="form-floating">
 									<input id="cookieQuantity" type="text" className="form-control" value={cookieQuantity} onChange={(e) => setCookieQuantity(e.target.value)} placeholder="Cookie Quantity" />
-									<label for="cookieQuantity">Quantity</label>
+									<label htmlFor="cookieQuantity">Quantity</label>
 									{errors["cookieQuantity"] &&
 										<div className="invalid-feedback d-block">
 											{errors["cookieQuantity"]}
@@ -199,7 +199,7 @@ export default function Order(props) {
 										<option value="local">Local Pickup</option>
 										<option value="mail">Mail Delivery (Additional Shipping Fees Apply)</option>
 									</select>
-									<label for="floatingSelect">Delivery Options</label>
+									<label htmlFor="floatingSelect">Delivery Options</label>
 								</div>
 							</div>
 						</div>
