@@ -1,5 +1,5 @@
 import "./Gallery.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ImageMasonry from "react-image-masonry";
 
 export default function Gallery(props) {
@@ -7,7 +7,7 @@ export default function Gallery(props) {
 	const [fullScreenImageUrl, setFullScreenImageUrl] = useState("");
 	const [numColsToDisplay] = useState(3);
 
-	const galleryImages = ["100-birthday-1-thumb.jpg", "home-1-thumb.jpg", "sports-1-thumb.jpeg", "chiefs-cookies-1-thumb.jpg", "nurse-1-thumb.jpg", "llama-cookies-1-thumb.jpg", "birthday-1-thumb.jpg", "workout-1-thumb.jpg", "birthday-2-thumb.jpg", "tropical-1-thumb.jpg", "fishing-1-thumb.jpg", "camping-1.jpeg", "pugicorn.jpeg", "spring-1.jpeg", "spring-2.jpeg"];
+	const galleryImages = ["100-birthday-1-thumb.jpg", "home-1-thumb.jpg", "sports-1-thumb.jpeg", "chiefs-cookies-1-thumb.jpg", "nurse-1-thumb.jpg", "llama-cookies-1-thumb.jpg", "birthday-1-thumb.jpg", "workout-1-thumb.jpg", "birthday-2-thumb.jpg", "tropical-1-thumb.jpg", "fishing-1-thumb.jpg", "camping-1.jpeg", "pugicorn.jpeg", "spring-1.jpeg", "spring-2.jpeg", "baseball-1.jpg", "birthday-3.jpg", "toy-story-1.jpg"];
 
 	const handleImageClick = (e) => {
 		const fullImageSource = e.target.src.replace("-thumb", "");
