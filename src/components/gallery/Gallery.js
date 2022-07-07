@@ -7,7 +7,7 @@ export default function Gallery(props) {
 	const [fullScreenImageUrl, setFullScreenImageUrl] = useState("");
 	const [numColsToDisplay] = useState(3);
 
-	const galleryImages = ["100-birthday-1-thumb.jpg", "home-1-thumb.jpg", "sports-1-thumb.jpeg", "chiefs-cookies-1-thumb.jpg", "baby-1.jpeg", "nurse-1-thumb.jpg", "llama-cookies-1-thumb.jpg", "birthday-1-thumb.jpg", "workout-1-thumb.jpg", "birthday-2-thumb.jpg", "tropical-1-thumb.jpg", "fishing-1-thumb.jpg", "camping-1.jpeg", "pugicorn.jpeg", "spring-1.jpeg", "spring-2.jpeg", "baseball-1.jpg", "birthday-3.jpg", "toy-story-1.jpg"];
+	const galleryImages = ["100-birthday-1-thumb.jpg", "home-1-thumb.jpg", "sports-1-thumb.jpeg", "chiefs-cookies-1-thumb.jpg", "stranger-things-1-thumb.jpeg", "pride-1-thumb.jpeg", "baby-1-thumb.jpeg", "nurse-1-thumb.jpg", "llama-cookies-1-thumb.jpg", "birthday-1-thumb.jpg", "workout-1-thumb.jpg", "birthday-2-thumb.jpg", "tropical-1-thumb.jpg", "misc-1-thumb.jpeg", "fishing-1-thumb.jpg", "camping-1-thumb.jpeg", "pugicorn-thumb.jpeg", "spring-1-thumb.jpeg", "spring-2-thumb.jpeg", "baseball-1-thumb.jpg", "birthday-3-thumb.jpg", "toy-story-1-thumb.jpg", "real-estate-1-thumb.jpeg", "fourth-july-1-thumb.jpeg"];
 
 	const handleImageClick = (e) => {
 		const fullImageSource = e.target.src.replace("-thumb", "");
